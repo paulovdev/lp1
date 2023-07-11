@@ -4,6 +4,8 @@ import Home from './pages/Home/Home'
 import About from './pages/About/About'
 import Features from './pages/Features/Features'
 import Prices from './pages/Prices/Prices'
+import Details from './pages/Details/Details'
+import Footer from './components/Footer/Footer'
 const App = () => {
   return (
     <>
@@ -12,6 +14,8 @@ const App = () => {
       <About />
       <Features />
       <Prices />
+      <Details />
+      <Footer />
     </>
   )
 }

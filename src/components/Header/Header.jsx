@@ -13,6 +13,7 @@ const Header = () => {
         { title: "About", href: "#about" },
         { title: "Features", href: "#features" },
         { title: "Pricing", href: "#prices" },
+        { title: "FAQ", href: "#details" },
     ]
     return (
         <header>

@@ -1,0 +1,64 @@
+#details {
+    padding: 110px 50px;
+}
+
+#details .grid {
+    display: flex;
+    flex-direction: column;
+}
+
+#details h1 {
+    font-size: 3rem;
+    line-height: 160%;
+    text-align: center;
+    color: rgb(48, 48, 48);
+    font-style: normal;
+    font-weight: 400;
+}
+
+#details details {
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    border-bottom: 1px solid;
+}
+
+#details details summary {
+    font-size: 1.5rem;
+    line-height: 140%;
+    color: rgb(48, 48, 48);
+    font-style: normal;
+    font-weight: 500;
+    padding: 1rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    cursor: pointer;
+
+}
+
+#details details p {
+    font-size: 1.2rem;
+    line-height: 140%;
+    color: rgb(48, 48, 48);
+    font-style: normal;
+    font-weight: 400;
+    padding: 1rem;
+
+}
+
+#details details svg {
+    transition: transform 0.2s;
+}
+
+#details details svg.rotate {
+    transform: rotate(180deg);
+}
+
+@media (max-width:768px) {
+    #details {
+        padding: 50px 40px;
+    }
+}

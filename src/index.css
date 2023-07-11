@@ -21,3 +21,18 @@ body {
     max-width: 1330px;
     margin: 0 auto;
 }
+
+::selection {
+    background-color: #ff3333;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ff3333;
+    border-radius: 10px;
+}

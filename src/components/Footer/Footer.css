@@ -1,0 +1,26 @@
+#footer {
+    position: absolute;
+    width: 100%;
+    padding: 1rem;
+
+}
+
+#footer .grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer button {
+    width: 50px;
+    height: 40px;
+}
+
+#footer button svg {
+    transition: transform 0.3s;
+}
+
+#footer button:hover svg {
+
+    transform: translateY(-3px);
+}

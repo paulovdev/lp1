@@ -29,7 +29,7 @@
 
 .demos .card {
     width: 400px;
-    height: auto;
+    height: 500px;
     padding: 1rem;
 }
 
@@ -68,6 +68,12 @@
 @media (max-width:768px) {
     #features {
         padding: 50px 40px;
+    }
+
+    .demos .card {
+        width: 100%;
+        height: 500px;
+        padding: 1rem;
     }
 }
 

@@ -1,16 +1,22 @@
 import React from 'react'
 import './About.css'
+import { Fade } from 'react-awesome-reveal';
+
 const About = () => {
     return (
         <section id='about'>
             <div className="grid">
 
                 <div className="photo-container">
-                    <img src="/pxulin.jpg" alt="" />
+                    <Fade cascade direction='left' duration={700} triggerOnce>
+                        <img src="/pxulin.jpg" alt="" />
+                    </Fade>
                 </div>
                 <div className="text-container">
-                    <h1>"With the new website development tools at my disposal, I can efficiently create and evaluate landing pages. These user-friendly templates have significantly enhanced our conversion rates, resulting in almost a twofold increase in customer engagement."</h1>
-                    <p> <a href="https://pxulin.netlify.app/" target='__blank'><b> Paulo Vitor</b></a>, Web Developer</p>
+                    <Fade cascade direction='up' duration={700} triggerOnce>
+                        <h1>"This course is suitable for anyone who wants to make web pages from scratch, perfecting themselves time and time and reaching spectacular levels, learning about many things, doing and many, many challenges."</h1>
+                        <p> <a href="https://pxulin.netlify.app/" target='__blank'><b> Paulo Vitor</b></a>, Web Developer</p>
+                    </Fade>
                 </div>
             </div>
         </section>

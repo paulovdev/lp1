@@ -40,10 +40,14 @@
 #prices .price-card h1 {
     font-size: 2rem;
     line-height: 110%;
-    margin-bottom: 1rem;
-    color: rgb(48, 48, 48);
-    font-weight: 700;
+    font-weight: 500;
+    border-radius: 0.5rem;
     text-align: center;
+    background-color: #fff;
+    color: #ff3333;
+    border: 1px solid #ff3333;
+    padding: 1rem;
+
 }
 
 #prices .price-card h2 {
@@ -52,7 +56,7 @@
     line-height: 110%;
     margin-bottom: 1rem;
     color: rgb(48, 48, 48);
-    font-weight: 700;
+    font-weight: 500;
     text-align: center;
     border-radius: 0.5rem;
 }
@@ -66,13 +70,17 @@
 #prices .price-card li {
     font-size: 1.2rem;
     line-height: 150%;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: rgb(48, 48, 48);
     font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 #prices .price-card button {
     width: 100%;
+    height: 40px;
 
     &:hover {
         background-color: #fff;
@@ -87,8 +95,7 @@
     }
 
     #prices .price-card {
-        width: auto;
-
+        width: 100%;
     }
 }
 
