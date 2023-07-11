@@ -1,45 +1,43 @@
-import React from 'react'
-import './Features.css'
+import React from 'react';
+import './Features.css';
+
 const Features = () => {
     return (
         <section id='features'>
             <div className='grid'>
-                <h1>Web development encompasses various skills and technologies used to create and maintain websites.</h1>
+                <h1>You will learn to create</h1>
                 <div className="demos">
-
                     <div className="card">
                         <div className="card-img">
-                            <img src="/features/uidesign.png" alt="" />
+                            <img src="/features/design.svg" alt="UI Design" />
                         </div>
                         <h1>UI Design</h1>
                         <p>
-                            It is the visual and functional creation of digital interfaces, such as buttons, menus and colors, to make user interaction with a product or service easier.</p>
+                            UI Design involves creating visually appealing and functional digital interfaces, such as buttons, menus, and colors, to enhance user interaction with a product or service.</p>
                     </div>
 
                     <div className="card">
                         <div className="card-img">
-                            <img src="/features/motiondesign.png" alt="" />
+                            <img src="/features/motion.svg" alt="Motion Design" />
                         </div>
                         <h1>Motion Design</h1>
                         <p>
-                            It's the design that makes websites and apps automatically adjust to different devices and screen sizes, providing a good user experience no matter how they're accessing.</p>
+                            Motion Design ensures that websites and apps adapt seamlessly to different devices and screen sizes, providing an optimal user experience regardless of how they access the content.</p>
                     </div>
 
                     <div className="card">
                         <div className="card-img">
-                            <img src="/features/resdesign.png" alt="" />
+                            <img src="/features/responsive.svg" alt="Responsive Design" />
                         </div>
 
                         <h1>Responsive Design</h1>
                         <p>
-                            It is the creation of animated elements for digital interfaces, such as movements, transitions and visual effects, which help to communicate information, improve the user experience and make interaction more interesting.</p>
+                            Responsive Design focuses on creating dynamic elements for digital interfaces, incorporating animations, transitions, and visual effects that effectively communicate information, enhance user experience, and make interactions more engaging.</p>
                     </div>
-
                 </div>
-            </div  >
-
+            </div>
         </section>
-    )
-}
+    );
+};
 
-export default Features
+export default Features;

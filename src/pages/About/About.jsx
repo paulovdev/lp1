@@ -10,7 +10,7 @@ const About = () => {
                 </div>
                 <div className="text-container">
                     <h1>"With the new website development tools at my disposal, I can efficiently create and evaluate landing pages. These user-friendly templates have significantly enhanced our conversion rates, resulting in almost a twofold increase in customer engagement."</h1>
-                    <p> <b>Paulo Vitor</b>, Web Developer</p>
+                    <p> <a href="https://pxulin.netlify.app/" target='__blank'><b> Paulo Vitor</b></a>, Web Developer</p>
                 </div>
             </div>
         </section>

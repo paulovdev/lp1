@@ -7,31 +7,14 @@ const Home = () => {
             <div className='grid'>
                 <div className='content'>
                     <div className="text-container">
-                        <h1>Unlock Your Potential with the Power of the Internet</h1>
-                        <p>Experience the boundless opportunities of the internet and unleash your creativity. Discover a world of endless possibilities without limits or boundaries. Connect, explore, and engage with the global community at your fingertips.</p>
+                        <h1>Learn to create amazing and functional websites from scratch.</h1>
+                        <p>Our website development course provides you with the skills and knowledge needed to create professional websites. You'll be ready to master the latest web technologies and create stunning websites.</p>
                         <button>Know More</button>
                     </div>
 
                     <div className="photo-container">
-                        <img src="/background.png" alt="" />
+                        <img src="/background.svg" alt="" />
                     </div>
-                </div>
-            </div>
-            <div className='logos'>
-                <div className="logo-icon">
-                    <img src="/logos/logo-zola.svg" alt="" />
-                </div>
-                <div className="logo-icon">
-                    <img src="/logos/logo-agencywithin.svg" alt="" />
-                </div>
-                <div className="logo-icon">
-                    <img src="/logos/logo-later.svg" alt="" />
-                </div>
-                <div className="logo-icon">
-                    <img src="/logos/logo-fifty.svg" alt="" />
-                </div>
-                <div className="logo-icon">
-                    <img src="/logos/logo-campaign-monitor.svg" alt="" />
                 </div>
             </div>
         </section>

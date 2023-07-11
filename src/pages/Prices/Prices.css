@@ -1,0 +1,101 @@
+#prices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ff3333;
+    padding: 80px 50px;
+}
+
+#prices h1 {
+    font-size: 3rem;
+    line-height: 160%;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #fff;
+    font-style: normal;
+    font-weight: 400;
+}
+
+#prices .prices-cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+#prices .price-card {
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(94, 94, 94);
+}
+
+#prices .price-card h1 {
+    font-size: 2rem;
+    line-height: 110%;
+    margin-bottom: 1rem;
+    color: rgb(48, 48, 48);
+    font-weight: 700;
+    text-align: center;
+}
+
+#prices .price-card h2 {
+    font-size: 2.4rem;
+
+    line-height: 110%;
+    margin-bottom: 1rem;
+    color: rgb(48, 48, 48);
+    font-weight: 700;
+    text-align: center;
+    border-radius: 0.5rem;
+}
+
+
+#prices .price-card span {
+    font-size: 2rem;
+
+}
+
+#prices .price-card li {
+    font-size: 1.2rem;
+    line-height: 150%;
+    margin-bottom: 1rem;
+    color: rgb(48, 48, 48);
+    font-weight: 400;
+}
+
+#prices .price-card button {
+    width: 100%;
+
+    &:hover {
+        background-color: #fff;
+        color: #ff3333;
+        border: 1px solid #ff3333;
+    }
+}
+
+@media (max-width:768px) {
+    #prices {
+        padding: 50px 40px;
+    }
+
+    #prices .price-card {
+        width: auto;
+
+    }
+}
+
+@media (max-width:420px) {
+    #prices h1 {
+        font-size: 2.4rem;
+
+    }
+
+}
