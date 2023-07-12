@@ -20,6 +20,14 @@ const details = [
         title: "Stand Out in the Digital Age",
         desc: "In the digital age we live in, having a website is essential to stand out in the market. Creating websites allows you to present your products, services and information professionally and accessible to anyone, anywhere in the world. With a well-structured website, you can attract new customers, strengthen your brand and expand your online presence. Don't miss the opportunity to capture the attention of your target audience and differentiate yourself from the competition. Invest in creating a modern, responsive and optimized to ensure the success of your business on the internet."
     },
+    {
+        title: "Your gateway to the digital world",
+        desc: "Website design is your gateway to the digital world. Whether you want to promote your personal brand, grow your business or share information, a well-designed website is key. With an attractive design, intuitive navigation and relevant content, you can attract and engage your target audience. Also, a responsive and mobile-optimized website is essential to ensure a seamless experience on any device. Don't miss the opportunity to reach a wider audience and build your online presence. Invest in the creating a professional website and conquer new opportunities in the digital world."
+    },
+    {
+        title: "The Path to Online Success",
+        desc: "Website design is the path to success online. Whether you're an entrepreneur, artist, freelancer or organization, a well-designed and functional website is essential to stand out in the digital age. With a professional website, you can showcase your products, services or talents in a captivating way, reaching a global audience. In addition, a website allows you to interact with your customers, establish your credibility and increase your visibility in search engines. Don't miss the opportunity to expand your horizons and reach out to new opportunities. Invest in creating a quality website and pave the way to online success."
+    }
 ];
 
 const Details = () => {
@@ -42,7 +50,7 @@ const Details = () => {
                                 <summary onClick={() => handleClick(index)}>
                                     {item.title}{' '}
                                     <MdKeyboardArrowDown
-                                        size={32}
+                                        size={42}
                                         className={index === activeItem ? "rotate" : ""}
                                     />
                                 </summary>

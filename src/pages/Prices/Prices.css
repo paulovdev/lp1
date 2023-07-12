@@ -23,7 +23,6 @@
     justify-content: center;
     align-items: center;
     gap: 2rem;
-
 }
 
 #prices .price-card {
@@ -47,12 +46,10 @@
     color: #ff3333;
     border: 1px solid #ff3333;
     padding: 1rem;
-
 }
 
 #prices .price-card h2 {
     font-size: 2.4rem;
-
     line-height: 110%;
     margin-bottom: 1rem;
     color: rgb(48, 48, 48);
@@ -61,10 +58,8 @@
     border-radius: 0.5rem;
 }
 
-
 #prices .price-card span {
     font-size: 2rem;
-
 }
 
 #prices .price-card li {
@@ -81,17 +76,11 @@
 #prices .price-card button {
     width: 100%;
     height: 40px;
-
-    &:hover {
-        background-color: #fff;
-        color: #ff3333;
-        border: 1px solid #ff3333;
-    }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
     #prices {
-        padding: 50px 40px;
+        padding: 50px 10px;
     }
 
     #prices .price-card {
@@ -99,10 +88,8 @@
     }
 }
 
-@media (max-width:420px) {
+@media (max-width: 420px) {
     #prices h1 {
         font-size: 2.4rem;
-
     }
-
 }
