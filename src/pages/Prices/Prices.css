@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #ff3333;
+    background-color: #6517AB;
     padding: 80px 50px;
 }
 
@@ -43,8 +43,8 @@
     border-radius: 0.5rem;
     text-align: center;
     background-color: #fff;
-    color: #ff3333;
-    border: 1px solid #ff3333;
+    color: #6517AB;
+    border: 1px solid #6517AB;
     padding: 1rem;
 }
 

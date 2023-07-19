@@ -31,12 +31,14 @@ const details = [
 ];
 
 const Details = () => {
-    const [activeItem, setActiveItem] = useState('');
+    const [rotation, setRotation] = useState([]);
 
-    const handleClick = (index) => {
-        setActiveItem(index === activeItem ? '' : index);
-    };
-
+    function rotate(i) {
+        const newRotation = [...rotation]
+        newRotation[i] = !rotation[i]
+        setRotation(newRotation)
+        console.log(rotation)
+    }
     return (
         <section id='details'>
             <div className='grid'>
@@ -44,14 +46,14 @@ const Details = () => {
                     <h1>Frequently asked questions</h1>
                 </Fade>
                 <div className="questions">
-                    {details.map((item, index) => (
-                        <Fade cascade direction='down' duration={500} delay={index * 300} triggerOnce>
-                            <details key={index}>
-                                <summary onClick={() => handleClick(index)}>
-                                    {item.title}{' '}
+                    {details.map((item, i) => (
+                        <Fade cascade direction='down' duration={500} delay={i * 300} triggerOnce key={i}>
+                            <details>
+                                <summary onClick={() => rotate(i)}>
+                                    {item.title}
                                     <MdKeyboardArrowDown
                                         size={42}
-                                        className={index === activeItem ? "rotate" : ""}
+                                        className={rotation[i] ? 'rotate' : ''}
                                     />
                                 </summary>
                                 <p>{item.desc}</p>

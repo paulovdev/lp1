@@ -10,9 +10,9 @@ const Home = () => {
 
                     <div className="text-container">
                         <Fade cascade direction='down' duration={700} triggerOnce>
-                            <h1>Learn to create amazing and functional websites from scratch.</h1>
-                            <p>Our website development course provides you with the skills and knowledge needed to create professional websites. You'll be ready to master the latest web technologies and create stunning websites.</p>
-                            <button>Know More</button>
+                            <h1>ChatFlow Solutions</h1>
+                            <p>Impulsione suas conversas com chat bots inteligentes e fluxos otimizados</p>
+                            <button>Saber mais</button>
                         </Fade>
                     </div>
 

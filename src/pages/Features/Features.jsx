@@ -7,7 +7,7 @@ const Features = () => {
         <section id='features'>
             <div className='grid'>
                 <Fade cascade direction='down' duration={700} triggerOnce>
-                    <h1>You will learn to create</h1>
+                    <h1>Alguns recursos que usamos</h1>
                 </Fade>
                 <div className="demos">
                     <Fade cascade direction='up' duration={930} triggerOnce>
@@ -15,18 +15,18 @@ const Features = () => {
                             <div className="card-img">
                                 <img src="/features/design.svg" alt="UI Design" />
                             </div>
-                            <h1>UI Design</h1>
+                            <h1>Respostas Rápidas</h1>
                             <p>
-                                UI Design involves creating visually appealing and functional digital interfaces, such as buttons, menus, and colors, to enhance user interaction with a product or service.</p>
+                                Usamos tecnologia avançada para fornecer informações importantes em questão de segundos. Seja sobre produtos, horários de funcionamento ou respostas a perguntas frequentes, garantimos uma experiência ágil e confiável para todos os clientes.</p>
                         </div>
 
                         <div className="card">
                             <div className="card-img">
                                 <img src="/features/motion.svg" alt="Motion Design" />
                             </div>
-                            <h1>Motion Design</h1>
+                            <h1>Atendimento Personalizado</h1>
                             <p>
-                                Motion Design ensures that websites and apps adapt seamlessly to different devices and screen sizes, providing an optimal user experience regardless of how they access the content.</p>
+                                Utilizamos um chat bot automatizado que oferece atendimento altamente personalizado para cada cliente. Ele analisa dados, histórico de interações e preferências do usuário para fornecer recomendações relevantes e respostas sob medida.</p>
                         </div>
 
                         <div className="card">
@@ -34,9 +34,9 @@ const Features = () => {
                                 <img src="/features/responsive.svg" alt="Responsive Design" />
                             </div>
 
-                            <h1>Responsive Design</h1>
+                            <h1>Integração</h1>
                             <p>
-                                Responsive design focuses on creating dynamic elements for digital interfaces, including animations, transitions, and visual effects that communicate information effectively, improve the user experience.</p>
+                                Nosso chat bot automatizado se integra perfeitamente ao seu sistema atual, independentemente do canal de comunicação, site, redes sociais ou aplicativo. Ele coleta dados relevantes e garante consistência na experiência do cliente em todos os pontos de contato.</p>
                         </div>
                     </Fade>
                 </div>
